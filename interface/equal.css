@@ -1,0 +1,60 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+max-width: 100%;
+/* margin: 35px auto; */
+
+
+}
+
+.tarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+.producto{
+flex: 1 1 21rem;
+display: flex;
+flex-direction: column;
+margin: 10px 20px;
+background: #fff;
+border: 1px solid rgb(255, 90, 90);
+border-radius: 0.5em;
+padding: 10px 20px;
+align-self: normal;
+align-items: center;
+}
+.producto img{
+    
+    width: 100%;
+    max-width: 200px;
+    
+
+
+}
+.descripcion{
+    color: crimson;
+
+
+}
+.precio{
+color: black;
+}
+.producto .tipo{
+
+    position: relative;
+    top: 0;
+    left: 38%;
+
+    border-radius: 0.2em;
+    padding: 0.1em 0.5em;
+    background: rgb(225, 90, 90);
+    color: rgb( 255, 255, 255);
+    text-transform: uppercase;
+    font-size: 0.9em;
+   
+
+}
